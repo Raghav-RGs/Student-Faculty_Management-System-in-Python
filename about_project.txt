@@ -1,0 +1,25 @@
+This project is built to manage the student ,faculty details with the use of Database.
+GUI Library : Tkinter
+Database : Mysql
+Language : Python
+Other Libraries Used : mysql.connector,OS,Webbrowser,PIL.
+
+#STUDENT:
+    Student can able to login by the UserId and Password provided by the admin.
+    student can change the password and view thier own profile only.
+    To add new profile or  update or  delete any profile is under the command of ADMIN.
+
+#FACULTY :
+    Faculty can able to login by the UserId and Password provided by the admin.
+    Faculty can update the student attendance by using Student Id.
+    Faculty can also change thier login password.
+    To add new Faculty,update thier profile and to delete any profile is under the
+    command of ADMIN.
+#ADMIN :
+    ADMIN can be able to login by the UserId and Password provided by the SuperAdmin.
+    ADMIN can add,search and update the profiles of both student and teacher.
+    To delete any existing profile is only possible through SuperAdmin password.
+    SuperAdmin have power to add or delete any admin.
+
+#SuperAdmin : SuperAdmin UserID is : Raghav
+              SuperAdmin Password is : Raghav@123
